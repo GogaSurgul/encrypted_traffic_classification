@@ -44,3 +44,38 @@ Results
 Accuracy Improvement: **-0.03%**
 
 Although the improved model applied regularization techniques, the baseline model performed slightly better, indicating that the original architecture was already well suited for this dataset.
+
+
+
+
+
+
+
+
+
+Darknet Traffic Activity Classification
+
+This project builds a machine learning model to classify user activity types 
+(Label2) from darknet network traffic data.
+
+Activities include:
+- Browsing
+- Chat
+- Email
+- File Transfer
+- P2P
+- VOIP
+- Audio Streaming
+- Video Streaming
+
+Methods
+- Data preprocessing (IP conversion, NaN removal, scaling)
+- Label encoding
+- Neural network classifier (TensorFlow/Keras)
+- Evaluation with accuracy and confusion matrix
+
+Result
+Final accuracy: ~85%
+
+Dataset
+Darknet.csv
