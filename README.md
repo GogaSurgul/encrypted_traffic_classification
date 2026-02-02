@@ -22,7 +22,7 @@ The preprocessing steps include:
 
 
 Models
-### Baseline Model
+Baseline Model
 A neural network with:
 - Input layer
 - Three hidden layers (ReLU activation)
